@@ -54,7 +54,8 @@ def jogar():
                 if(rodada == total_tentativas):
                     print(f"O número secreto era {numero_secreto}. Você fez {pontos}")
 
-    print("Fim do jogo")    
-
+    print("Fim do jogo")   
+if(__name__ == "__main__"):
+    jogar()
 
 
